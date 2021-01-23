@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 */
 module.exports = {
     siteMetadata: {
-        siteUrl: process.env.vibrant-hawking-18fc46.netlify.app || config.siteUrl,
+        siteUrl: process.env.quantified-ghost.herokuapp.com || config.siteUrl,
     },
     plugins: [
         /**
