@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 */
 module.exports = {
     siteMetadata: {
-        siteUrl: quantified-ghost.herokuapp.com || config.siteUrl,
+        siteUrl: process.env.SITEURL || config.siteUrl,
     },
     plugins: [
         /**
